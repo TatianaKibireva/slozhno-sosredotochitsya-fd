@@ -15,7 +15,6 @@
   position: relative;
   flex-direction: column;
   min-block-size: 668px;
-  block-size: 100vh;
 }
 
 .decorated-corner::before {
