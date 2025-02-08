@@ -53,9 +53,9 @@
 
 .rec-icon::before {
   content: 'REC';
-  font-family: var(--main-font);
   font-size: var(--main-text-size);
   color: var(--accent-color);
+  font-family: var(--main-font);
 }
 
 .rec-icon::after {
@@ -85,10 +85,10 @@
   block-size: 26px;
   inline-size: 70px;
   padding-block-end: 4px;
-  font-family: var(--main-font);
   font-size: var(--main-text-size);
   line-height: var(--menu-line-height);
   color: var(--decor-color);
+  font-family: var(--main-font);
   background-color: transparent;
   border: none;
   text-transform: lowercase;
@@ -112,10 +112,10 @@
 }
 
 .text-title {
-  font-family: var(--main-font);
   font-size: var(--h1-size-mobile);
   line-height: 82.5%;
   color: var(--h1-color);
+  font-family: var(--main-font);
 }
 
 .header-title {
@@ -125,10 +125,10 @@
 }
 
 .title-decor {
-  font-family: var(--main-font);
   font-weight: var(--h3-font-weight);
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
+  font-family: var(--main-font);
   color: var(--main-color);
   background-color: var(--accent-color);
 }
@@ -154,10 +154,10 @@
 }
 
 .content__title {
-  font-family: var(--main-font);
   font-weight: var(--h2-font-weight);
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
+  font-family: var(--main-font);
   color: var(--h2-color);
 }
 
@@ -172,10 +172,10 @@
 }
 
 .content-description {
-  font-family: var(--main-font);
   font-weight: var(--h4-font-weight);
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
+  font-family: var(--main-font);
   color: var(--main-color);
   background-color: var(--accent-color);
 }
@@ -185,10 +185,10 @@
 }
 
 .content-text {
-  font-family: var(--main-font);
   font-weight: var(--content-font-weight);
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
+  font-family: var(--main-font);
   color: var(--color-content);
 }
 
