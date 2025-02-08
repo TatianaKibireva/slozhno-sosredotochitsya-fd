@@ -12,7 +12,7 @@
   --hover-color: rgb(50 49 45 / 0.4);
   --main-color: #353430;
   --bg-color: #fff1f7;
-  --bg-image: url(../images/cover-light-dark.png);
+  --bg-image: url(../images/cover-image-light.png);
   --color-content: #353430;
 }
 
@@ -30,7 +30,7 @@
     --hover-color: rgb(50 49 45 / 0.4);
     --main-color: #353430;
     --bg-color: #fff1f7;
-    --bg-image: url(../images/cover-light-dark.png);
+    --bg-image: url(../images/cover-image-light.png);
     --color-content: #353430;
   }
 

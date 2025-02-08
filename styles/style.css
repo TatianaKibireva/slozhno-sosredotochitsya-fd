@@ -1,19 +1,18 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  display: grid;
+  gap: 40px;
   background-image: var(--bg-image);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
   background-color: var(--bg-color);
-  display: grid;
-
-  gap: 40px;
 }
 
 .header {
-  position: relative;
   display: flex;
+  position: relative;
   flex-direction: column;
   min-block-size: 668px;
   block-size: 100vh;
@@ -22,13 +21,11 @@
 .decorated-corner::before {
   content: ' ';
   position: absolute;
-
   width: 25px;
   height: 25px;
   border-width: 1px 1px 0 0;
   border-style: solid;
   border-color: var(--decor-color);
-
   top: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
   right: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
 }
@@ -36,7 +33,6 @@
 .decorated-corner::after {
   content: ' ';
   position: absolute;
-
   width: 25px;
   height: 25px;
   border-width: 0 0 1px 1px;
@@ -47,10 +43,10 @@
 }
 
 .rec-icon {
-  position: absolute;
-  margin-inline: 10px;
   display: flex;
   gap: 10px;
+  position: absolute;
+  margin-inline: 10px;
   right: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
   top: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
 }
@@ -64,7 +60,6 @@
 
 .rec-icon::after {
   content: ' ';
-
   align-self: center;
   width: 9px;
   height: 9px;
@@ -87,6 +82,9 @@
 
 .header__theme-menu-button {
   position: relative;
+  block-size: 26px;
+  inline-size: 70px;
+  padding-block-end: 4px;
   font-family: var(--main-font);
   font-size: var(--main-text-size);
   line-height: var(--menu-line-height);
@@ -94,9 +92,6 @@
   background-color: transparent;
   border: none;
   text-transform: lowercase;
-  block-size: 26px;
-  inline-size: 70px;
-  padding-block-end: 4px;
 }
 
 .header__theme-menu-button:hover {
@@ -124,9 +119,9 @@
 }
 
 .header-title {
-  text-shadow: 4px 4px 0 var(--accent-color);
   margin-block: 66px 56px;
   margin-inline: 10px;
+  text-shadow: 4px 4px 0 var(--accent-color);
 }
 
 .title-decor {
@@ -144,9 +139,9 @@
 }
 
 .main {
-  margin-inline: 10px;
   display: grid;
   gap: 50px;
+  margin-inline: 10px;
 }
 
 .content {
@@ -203,7 +198,6 @@
 
 .content__picture {
   display: grid;
-
   gap: 10px;
 }
 
@@ -239,7 +233,6 @@
   display: flex;
   flex-direction: column;
   position: relative;
-
   justify-content: center;
   align-items: center;
   min-block-size: 668px;
@@ -260,9 +253,9 @@
   }
 
   .header-title {
-    max-width: 100%;
     margin-block: 175px 161px;
     margin-inline: 0;
+    max-width: 100%;
   }
 
   .header-text {
@@ -277,9 +270,8 @@
   }
 
   .main {
-    margin-inline: 20px;
-
     gap: 80px;
+    margin-inline: 20px;
   }
 
   .right-container {
@@ -290,7 +282,6 @@
   .center-container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-
     gap: 20px;
   }
 
