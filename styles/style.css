@@ -15,6 +15,7 @@
   position: relative;
   flex-direction: column;
   min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .decorated-corner::before {
@@ -235,6 +236,7 @@
   justify-content: center;
   align-items: center;
   min-block-size: 668px;
+  block-size: 100vh;
 }
 
 .footer-title {
