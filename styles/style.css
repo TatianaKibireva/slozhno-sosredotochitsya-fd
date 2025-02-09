@@ -26,8 +26,8 @@
   border-width: 1px 1px 0 0;
   border-style: solid;
   border-color: var(--decor-color);
-  top: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
-  right: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
+  top: 10px;
+  right: 10px;
 }
 
 .decorated-corner::after {
@@ -38,8 +38,8 @@
   border-width: 0 0 1px 1px;
   border-style: solid;
   border-color: var(--decor-color);
-  bottom: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
-  left: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
+  bottom: 10px;
+  left: 10px;
 }
 
 .rec-icon {
@@ -69,8 +69,8 @@
 }
 
 .header__theme-menu {
-  margin-inline-end: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
-  margin-block-start: clamp(75px, var(--breakpoint-simulaion) * 1000, 192px);
+  margin-inline-end: 10px;
+  margin-block-start: 75px;
 }
 
 .header__theme-menu-list {
@@ -249,8 +249,23 @@
     gap: 60px;
   }
 
+  .decorated-corner::before {
+    top: 20px;
+    right: 20px;
+  }
+
+  .decorated-corner::after {
+    bottom: 20px;
+    left: 20px;
+  }
+
   .header {
     min-block-size: 1024px;
+  }
+
+  .header__theme-menu {
+    margin-inline-end: 20px;
+    margin-block-start: 192px;
   }
 
   .header-title {
