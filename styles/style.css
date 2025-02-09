@@ -47,8 +47,8 @@
   gap: 10px;
   position: absolute;
   margin-inline: 10px;
-  right: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
-  top: clamp(10px, var(--breakpoint-simulaion) * 1000, 20px);
+  right: 10px;
+  top: 10px;
 }
 
 .rec-icon::before {
@@ -258,6 +258,11 @@
     bottom: 20px;
     left: 20px;
   }
+
+  .rec-icon {
+    right: 10px;
+    top: 10px;
+  }  
 
   .header {
     min-block-size: 1024px;
