@@ -4,10 +4,10 @@
   переключая тему
 */
 
-:root.theme-ligh {
+:root.theme-light {
   --accent-color: #ff8dcb;
-  --h1-color: #ffc2e6;
-  --h2-color: #353430;
+  --header-color: #ffc2e6;
+  --sector-color: #353430;
   --decor-color: #353430;
   --hover-color: rgb(50 49 45 / 0.4);
   --main-color: #353430;
@@ -16,12 +16,16 @@
   --color-content: #353430;
 }
 
+.theme-light .rec-icon {
+  display: none;
+}
+
 @media (prefers-color-scheme: light) {
 
   :root {
     --accent-color: #ff8dcb;
-    --h1-color: #ffc2e6;
-    --h2-color: #353430;
+    --header-color: #ffc2e6;
+    --sector-color: #353430;
     --decor-color: #353430;
     --hover-color: rgb(50 49 45 / 0.4);
     --main-color: #353430;

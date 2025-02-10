@@ -43,7 +43,7 @@
   left: 10px;
 }
 
-.rec-icon {
+.theme-dark .rec-icon {
   display: flex;
   gap: 10px;
   position: absolute;
@@ -52,14 +52,14 @@
   top: 10px;
 }
 
-.rec-icon::before {
+.theme-dark .rec-icon::before {
   content: 'REC';
   font-size: var(--main-text-size);
   color: var(--accent-color);
   font-family: var(--main-font);
 }
 
-.rec-icon::after {
+.theme-dark .rec-icon::after {
   content: ' ';
   align-self: center;
   width: 9px;
@@ -115,7 +115,7 @@
 .text-title {
   font-size: var(--size-mobile);
   line-height: 82.5%;
-  color: var(--h1-color);
+  color: var(--header-color);
   font-family: var(--main-font);
 }
 
@@ -158,7 +158,7 @@
   font-size: var(--main-text-size);
   line-height: var(--main-line-height);
   font-family: var(--main-font);
-  color: var(--h2-color);
+  color: var(--sector-color);
 }
 
 .content__container {
@@ -259,7 +259,7 @@
     left: 20px;
   }
 
-  .rec-icon {
+  .theme-dark .rec-icon {
     right: 20px;
     top: 20px;
   }

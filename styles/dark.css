@@ -6,8 +6,8 @@
 
 :root.theme-dark {
   --accent-color: #ff0070;
-  --h1-color: #db00ff;
-  --h2-color: #ff0070;
+  --header-color: #db00ff;
+  --sector-color: #ff0070;
   --decor-color: #ff0070;
   --hover-color: rgb(255 0 112 / 0.4);
   --main-color: #000028;
@@ -16,46 +16,12 @@
   --color-content: #f1b2ce;
 }
 
-.theme-dark .rec-icon {
-  display: flex;
-  gap: 10px;
-  position: absolute;
-  margin-inline: 10px;
-  right: 10px;
-  top: 10px;
-}
-
-.theme-dark .rec-icon::before {
-  content: 'REC';
-  font-size: var(--main-text-size);
-  color: var(--accent-color);
-  font-family: var(--main-font);
-}
-
-.theme-dark .rec-icon::after {
-  content: ' ';
-  align-self: center;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
-  background: var(--accent-color);
-  box-shadow: 0 0 4px 2px var(--accent-color);
-}
-
-@media (width >= 768px) {
-
-  .theme-dark .rec-icon {
-    right: 20px;
-    top: 20px;
-  }
-}
-
 @media (prefers-color-scheme: dark) {
 
   :root {
     --accent-color: #ff0070;
-    --h1-color: #db00ff;
-    --h2-color: #ff0070;
+    --header-color: #db00ff;
+    --sector-color: #ff0070;
     --decor-color: #ff0070;
     --hover-color: rgb(255 0 112 / 0.4);
     --main-color: #000028;
