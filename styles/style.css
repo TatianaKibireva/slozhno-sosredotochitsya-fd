@@ -120,7 +120,7 @@
 }
 
 .header-title {
-  margin-inline: 10px; 
+  margin-inline: 10px;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
@@ -282,7 +282,6 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: min-content;
     margin-block-start: 162px;
-
   }
 
   .header-text__decor {
@@ -372,7 +371,7 @@
   }
 
   .header-text {
-    margin-block-start: 114px
+    margin-block-start: 114px;
   }
 
   .text-title {
@@ -390,10 +389,10 @@
     grid-template-rows: min-content auto;
   }
 
-   .text-sector {
+  .text-sector {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-   }
+  }
 
   .content__container-section {
     grid-template-rows: min-content auto;
