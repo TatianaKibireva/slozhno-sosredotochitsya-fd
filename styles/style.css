@@ -43,7 +43,7 @@
   left: 10px;
 }
 
-.theme-dark .rec-icon {
+.rec-icon {
   display: flex;
   gap: 10px;
   position: absolute;
@@ -52,14 +52,14 @@
   top: 10px;
 }
 
-.theme-dark .rec-icon::before {
+.rec-icon::before {
   content: 'REC';
   font-size: var(--main-text-size);
   color: var(--accent-color);
   font-family: var(--main-font);
 }
 
-.theme-dark .rec-icon::after {
+.rec-icon::after {
   content: ' ';
   align-self: center;
   width: 9px;
@@ -259,7 +259,7 @@
     left: 20px;
   }
 
-  .theme-dark .rec-icon {
+  .rec-icon {
     right: 20px;
     top: 20px;
   }

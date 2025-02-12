@@ -34,7 +34,7 @@
     --color-content: #353430;
   }
 
-  .rec-icon {
+  .theme-auto .rec-icon {
     display: none;
   }
 }
